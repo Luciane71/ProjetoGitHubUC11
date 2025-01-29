@@ -85,7 +85,25 @@ public class ProdutosDAO {
         return listagem;
     }
     
-    
+    public void venderProduto(Component parent, Integer id){
+        try {
+            conn = new conectaDAO().connectDB();
+            String query = "UPDATE produtos SET status = 'Vendido' WHERE id = ?";
+            try {
+                prep = conn.prepareStatement(query);
+                prep.setInt(1, id);
+                prep.executeUpdate();
+                JOptionPane.showMessageDialog(parent, "Produto vendido!");
+            }
+            finally {
+                conn.close();
+            }
+        }
+        catch (SQLException e){
+            JOptionPane.showMessageDialog(parent, e);
+
+        }
+    }
     
         
 }
