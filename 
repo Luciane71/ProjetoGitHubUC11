@@ -1,0 +1,23 @@
+Commit #5 Criando a Tela de Vendas
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# Date:      Wed Jan 29 18:42:27 2025 -0300
+#
+# On branch melhorias
+# Your branch is up to date with 'origin/melhorias'.
+#
+# Changes to be committed:
+#	modified:   LeiloesTDSat/build/built-jar.properties
+#	modified:   LeiloesTDSat/build/classes/ProdutosDAO.class
+#	modified:   LeiloesTDSat/build/classes/listagemVIEW.class
+#	new file:   LeiloesTDSat/build/classes/vendasVIEW$1.class
+#	new file:   LeiloesTDSat/build/classes/vendasVIEW$2.class
+#	new file:   LeiloesTDSat/build/classes/vendasVIEW.class
+#	new file:   LeiloesTDSat/build/classes/vendasVIEW.form
+#	modified:   LeiloesTDSat/src/ProdutosDAO.java
+#	modified:   LeiloesTDSat/src/listagemVIEW.java
+#	new file:   LeiloesTDSat/src/vendasVIEW.form
+#	new file:   LeiloesTDSat/src/vendasVIEW.java
+#
